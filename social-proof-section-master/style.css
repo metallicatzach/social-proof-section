@@ -5,7 +5,6 @@
     font-family: 'League Spartan', sans-serif;
 }
 body {
-    
     overflow: scroll;
     width:1440px;
     height:800px;
@@ -124,19 +123,52 @@ body {
     flex-direction: row;
     width:1200px;
     height:375px;
-    
-}
-.big_box {
-    
-    display:flex;
-    justify-content: center;
-    height:100%;
-    width:33.33%;
     border:1px solid;
 }
+.big_box1 {
+    display:flex;
+    justify-content: center;
+    border:1px solid;
+    height:100%;
+    width:400px;
+}
+.big_box2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid;
+    height:100%;
+    width:400px;
+}
+.big_box3 {
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+    border:1px solid;
+    height:100%;
+    width:400px;
+}
 .purple_box {
-    border-radius: 10px ;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
     width:350px;
     height:235px;
     background-color: #511F50;
+}
+.inside_purple {
+    width:300px;
+    height:175px;
+}
+.content_top {
+    border:1px solid;
+    height:60px;
+    width:100%;
+
+}
+.info_bottom {
+    border:1px solid;
+    height:120px;
+    width:100%;
 }
